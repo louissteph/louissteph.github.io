@@ -60,22 +60,23 @@ text-decoration:none;
 
 
 #overlay {
-  position: absolute; 
+  position: fixed; 
 
   width: 60%; 
-  height: 90%; 
+  height: 60%; 
   top: 25%;
   left: 20%;
   right: 20%;
-  bottom: 0;
+
   background-color: rgba(255,255,255,0.5); 
   z-index: 2; 
 font-color:black;
 font-family: courier;
+overflow: auto;
+overflow-x:hidden;
 
 
 }
-
 div#overlay a:link { color: black; }
 div#overlay a:visited { color: black; }
 div#overlay a:hover { color: white; }
